@@ -59,3 +59,8 @@ total = 0
 for new_number in new_numbers:
     total += number 
 print("total: " ,total) 
+
+total2 = 0
+for x in range(5,26):
+    total2 += x 
+print("total: ",total2)
