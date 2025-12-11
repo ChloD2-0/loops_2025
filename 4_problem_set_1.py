@@ -28,6 +28,22 @@ print("The sum of numbers from 1 to", n,"is:", total)
 
 # Ask the user for a number **n**, then calculate the **factorial** of that number.
 
+# 5! = 5 x 4 x 3 x 2 x 1 = 120
+# n! = n(n-1) ___ x 21 
+
+for i in range(10):
+    print (x)
+
+def facotrial(n):
+
+    facotrial=1
+
+    for i in range (n):
+        factorial*=i+1
+        
+        return factorial
+
+print(facotorial (0))
 # *(Example: factorial of 5 is 120)
 
 
