@@ -32,18 +32,18 @@ print("The sum of numbers from 1 to", n,"is:", total)
 # n! = n(n-1) ___ x 21 
 
 for i in range(10):
-    print (x)
+    print (i)
 
-def facotrial(n):
+def factorial(n):
 
-    facotrial=1
+    factorial=1
 
-    for i in range (n):
+    for i in range(n):
         factorial*=i+1
         
-        return factorial
+    return factorial
 
-print(facotorial (0))
+print(factorial(20))
 # *(Example: factorial of 5 is 120)
 
 
@@ -55,6 +55,13 @@ print(facotorial (0))
 # ### **Problem 5: Print Even Numbers**
 
 # Ask the user for a number **n**, then print all **even numbers** from 2 up to n.
+n = int(input("Enter a number: "))
+list2 = list(range(1, n))
+for i in list2:
+    if i % 2 == 0:
+        print("even", i)
+    else:
+        print("odd", i)
 
 
 
